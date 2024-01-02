@@ -19,7 +19,7 @@ function Menu() {
       <IonMenu side="end" contentId="main-content">
         <IonHeader>
           <IonToolbar>
-            <IonTitle>Menu Content</IonTitle>
+            <IonTitle>Menu Content ceci est un test</IonTitle>
           </IonToolbar>
         </IonHeader>
         <IonContent className="ion-padding">
