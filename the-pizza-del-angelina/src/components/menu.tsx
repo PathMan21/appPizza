@@ -10,37 +10,31 @@ import {
   IonMenuButton,
   IonPage,
   IonTitle,
-  IonToolbar
+  IonToolbar,
 } from '@ionic/react';
+import "./menu.css"
 
 function Menu() {
   return (
     <Router>
-      <IonMenu side="end" contentId="main-content">
+      <IonPage>
         <IonHeader>
           <IonToolbar>
-            <IonTitle>Menu Content ceci est un test</IonTitle>
-          </IonToolbar>
-        </IonHeader>
-        <IonContent className="ion-padding">
-          <Link to="/pages/page1">Page 1</Link>
-          <br />
-          <Link to="/pages/page2">Page 2</Link>
-        </IonContent>
-      </IonMenu>
-      <IonPage id="main-content">
-        <IonHeader>
-          <IonToolbar>
-            <IonButtons slot="start">
-              <IonMenuButton></IonMenuButton>
+            <IonTitle className="titreToolbar" slot="start"><h2>The Pizza Del Angelina !</h2></IonTitle>
+              <IonMenuButton />
+            <IonButtons>
+              <Link className="menuItem" to="/pages/page1"><img src="https://static.vecteezy.com/ti/vecteur-libre/p3/21028590-piece-de-pizza-noir-et-blanc-vecteur-ligne-illustration-vectoriel.jpg"></img>Carte</Link>
+              <Link className="menuItem" to="/pages/page2"><img src="https://static.vecteezy.com/ti/vecteur-libre/p3/21028590-piece-de-pizza-noir-et-blanc-vecteur-ligne-illustration-vectoriel.jpg"></img>Page 2</Link>
             </IonButtons>
-            <IonTitle>Menu</IonTitle>
           </IonToolbar>
         </IonHeader>
-        <Switch>
-          <Route exact path="/pages/page1" component={Page1}/>
-          <Route path="/pages/page2" component={Page2} />
-        </Switch>
+
+        <IonContent>
+          <Switch>
+            <Route exact path="/pages/page1" component={Page1} />
+            <Route path="/pages/page2" component={Page2} />
+          </Switch>
+        </IonContent>
       </IonPage>
     </Router>
   );

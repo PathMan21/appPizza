@@ -1,0 +1,37 @@
+
+
+.titreToolbar {
+    font-family: 'Fredericka the Great', serif;
+
+}
+
+.menuFlexbox {
+    display: inline-flex;
+
+    
+
+
+}
+
+.menuItem {
+
+    
+    transition-duration: 0.4s;
+    text-decoration: none;
+    color: black;
+    font-family: 'Lilita One', serif;
+    margin-top: 10px;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.menuItem img {
+    width: 26px;
+
+
+}
+.menuItem:hover {
+
+    transition: 0.4s;
+    transform: scale(1.2);
+}

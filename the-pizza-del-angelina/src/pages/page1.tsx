@@ -16,9 +16,6 @@ const Page1: React.FC = () => {
   return (
     <IonPage>
       <IonHeader>
-        <IonToolbar>
-          <IonTitle>Nos Pizzas !</IonTitle>
-        </IonToolbar>
       </IonHeader>
       <IonContent className="ion-padding">
       <IonGrid className='containerPizza'>
