@@ -23,9 +23,9 @@ function Menu() {
           </IonToolbar>
         </IonHeader>
         <IonContent className="ion-padding">
-          <Link to="../pages/page1">Page 1</Link>
+          <Link to="/pages/page1">Page 1</Link>
           <br />
-          <Link to="../pages/page2">Page 2</Link>
+          <Link to="/pages/page2">Page 2</Link>
         </IonContent>
       </IonMenu>
       <IonPage id="main-content">
@@ -38,8 +38,8 @@ function Menu() {
           </IonToolbar>
         </IonHeader>
         <Switch>
-          <Route exact path="../pages/page1" component={Page1}/>
-          <Route path="../pages/page2" component={Page2} />
+          <Route exact path="/pages/page1" component={Page1}/>
+          <Route path="/pages/page2" component={Page2} />
         </Switch>
       </IonPage>
     </Router>
