@@ -1,0 +1,68 @@
+
+
+.containerPizza {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+
+
+}
+
+.itemPizza {
+
+
+
+    background-color: lightyellow;
+    border-radius: 10px;
+    margin: 0 6px;
+    
+    padding: 10px;
+
+}
+
+
+
+.itemPizza img {
+
+    border-radius: 10px;
+
+
+}
+
+.itemPizza h2 {
+
+    font-family: 'Lilita One', serif;
+
+}
+
+.itemPizza p {
+    
+    font-family: 'Mukta', sans-serif;
+
+
+}
+
+.itemPizza button {
+    font-family: 'Lilita One', serif;
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    transition: 0.3s;
+    text-align: center;
+
+
+}
+
+.itemPizza button:hover {
+
+    transition: 0.3s;
+    transform: scale(1.2);
+}
