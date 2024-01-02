@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
-import Page1 from './page1';
-import Page2 from './page2';
+import Page1 from '../pages/page1';
+import Page2 from '../pages/page2';
 import {
   IonButtons,
   IonContent,
@@ -16,16 +16,16 @@ import {
 function Menu() {
   return (
     <Router>
-      <IonMenu contentId="main-content">
+      <IonMenu side="end" contentId="main-content">
         <IonHeader>
           <IonToolbar>
             <IonTitle>Menu Content</IonTitle>
           </IonToolbar>
         </IonHeader>
         <IonContent className="ion-padding">
-          <Link to="/page1">Page 1</Link>
+          <Link to="../pages/page1">Page 1</Link>
           <br />
-          <Link to="/page2">Page 2</Link>
+          <Link to="../pages/page2">Page 2</Link>
         </IonContent>
       </IonMenu>
       <IonPage id="main-content">
@@ -38,8 +38,8 @@ function Menu() {
           </IonToolbar>
         </IonHeader>
         <Switch>
-          <Route exact path="/page1" component={Page1} />
-          <Route path="/page2" component={Page2} />
+          <Route exact path="../pages/page1" component={Page1}/>
+          <Route path="../pages/page2" component={Page2} />
         </Switch>
       </IonPage>
     </Router>
