@@ -19,6 +19,7 @@ const Page2: React.FC = () => {
       </IonHeader>
       <IonContent className="ion-padding">
         <p>Ceci est une page Ionic de démonstration numéro 2.</p>
+          <p>-------------TEST-------------</p>
       </IonContent>
     </IonPage>
   );
