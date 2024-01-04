@@ -7,22 +7,22 @@
 
 .menuFlexbox {
     display: inline-flex;
-
     
-
 
 }
 
 .menuItem {
-
-    
+   
     transition-duration: 0.4s;
     text-decoration: none;
     color: black;
     font-family: 'Lilita One', serif;
     margin-top: 10px;
-    margin-left: 30px;
+    margin-bottom: 10px;
     font-size: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 20px;
 }
 
 .menuItem img {
