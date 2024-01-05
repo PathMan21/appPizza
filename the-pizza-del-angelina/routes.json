@@ -1,0 +1,9 @@
+{
+    "/customroute": {
+      "GET": {
+        "customKey": "Custom Value",
+        "otherKey": "Other Value"
+      }
+    }
+  }
+  
