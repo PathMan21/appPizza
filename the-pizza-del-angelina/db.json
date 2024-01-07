@@ -1,16 +1,32 @@
 {
   "pizzas": [
-    { "id": 1, "title": "Pizza Chorizo-double dose","image": "https://www.dominos.fr/ManagedAssets/FR/product/PCNR/FR_PCNR_fr_menu_12472.png?v-1736087109", "prix": "11.99 $", "ingredients": "poivrons,chorizo-double dose,fromage,pate" }
-    ,{ "id": 2, 
-    "title": "Champignon Lovers",
-    "image": "https://www.dominos.fr/ManagedAssets/FR/product/P4FR/FR_P4FR_fr_menu_12192.png?v-713404695",
-     "prix": "13.99 $", 
-     "ingredients": "poivrons,chorizo-double dose,fromage,pate" }
-  ],
-  "authentification": [
     {
-      "id": 1, "username": "root", "mdp": "root"
+      "id": 1,
+      "title": "Pizza Chorizo-double dose",
+      "image": "https://www.dominos.fr/ManagedAssets/FR/product/PCNR/FR_PCNR_fr_menu_12472.png?v-1736087109",
+      "prix": "11.99 $",
+      "ingredients": "poivrons,chorizo-double dose,fromage,pate"
+    },
+    {
+      "id": 2,
+      "title": "Champignon Lovers",
+      "image": "https://www.dominos.fr/ManagedAssets/FR/product/P4FR/FR_P4FR_fr_menu_12192.png?v-713404695",
+      "prix": "13.99 $",
+      "ingredients": "poivrons,chorizo-double dose,fromage,pate"
+    },
+    {
+      "title": "pizza chorizo",
+      "prix": "14 ",
+      "ingredients": "pate a pain...",
+      "img": "",
+      "id": 3
+    },
+    {
+      "title": "Pizza au nicolas",
+      "prix": "inestimable",
+      "ingredients": "pd",
+      "img": "",
+      "id": 4
     }
-
   ]
 }
