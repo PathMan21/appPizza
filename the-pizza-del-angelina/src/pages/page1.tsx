@@ -13,7 +13,7 @@ import './page.css';
 interface Pizza {
   id: number;
   title: string;
-  image: string;
+  img: string;
   prix: string;
   ingredients: string;
 }
@@ -51,7 +51,7 @@ const Page1: React.FC = () => {
             {/* Mapping des données pizza et affichage */}
             {pizza.map((entree: Pizza, index: number) => (
             <IonCol key={index} className='itemPizza'>
-              <img src={entree.image}></img>
+              <img src={entree.img}></img>
               <h2>{entree.title}</h2>
               <p>{entree.ingredients}</p>
               <p>{entree.prix}</p>
